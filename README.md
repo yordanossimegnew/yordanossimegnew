@@ -1,8 +1,15 @@
 ### Hi, I'm Yordanos 👋
 
-I build **LLM systems that keep working in production**: agents that survive crashes, gateways
-that route around failing providers, and the evals that tell you whether a change actually helped.
-Based in Addis Ababa, Ethiopia · open to AI engineering roles · [LinkedIn](https://www.linkedin.com/in/yordanos-muche)
+AI engineer in Addis Ababa, Ethiopia · open to AI engineering roles · [LinkedIn](https://www.linkedin.com/in/yordanos-muche)
+
+I build LLM applications end to end:
+- **Agents** that use tools and pause for human approval.
+- **RAG** that answers with verified citations.
+- **Evaluation pipelines** that catch a prompt or retrieval regression before it ships.
+- **The backend around them:** durable job queues, a multi-provider gateway, PostgreSQL / pgvector.
+
+Every project below is a complete, runnable app: a FastAPI backend, a Streamlit UI, automated
+tests and a demo GIF in the README.
 
 **Stack:** Python · LangGraph · LangChain · Claude API · FastAPI · PostgreSQL / pgvector · Streamlit · Docker · pytest
 
